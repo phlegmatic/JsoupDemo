@@ -43,7 +43,8 @@ public class App {
 					System.out.println("Enter Tin number");
 					input = scan.next();
 					if (!validator.validateTin(input)) {
-						System.out.println("Invalid TIN format! Try again");
+						System.out
+								.println("Invalid TIN format! Enter choice again");
 					} else {
 						searchcriteria.setTinNumber(input);
 						searchByCriteria(searchcriteria, "tin");
@@ -53,17 +54,24 @@ public class App {
 					System.out.println("Enter pan number");
 					input = scan.next();
 					if (!validator.validatePan(input)) {
-						System.out.println("Invalid PAN format ! Try again!");
+						System.out
+								.println("Invalid PAN format ! Enter choice again!");
 					} else {
 						searchcriteria.setPanNumber(input);
 						searchByCriteria(searchcriteria, "pan");
 					}
 					break;
 				case 3 :
+					scan.nextLine();
 					System.out.println("Enter dealer name");
 					input = scan.nextLine();
-					searchcriteria.setDealerName(input);
-					searchByCriteria(searchcriteria, "dealer");
+					if (input.length() != 0) {
+						searchcriteria.setDealerName(input);
+						searchByCriteria(searchcriteria, "dealer");
+					} else {
+						System.out
+								.println("Blank dealer name is invalid ! Enter choice again");
+					}
 					break;
 				case 5 :
 					System.out.println("Command Options: ");
@@ -84,13 +92,14 @@ public class App {
 
 	private static void searchByCriteria(SearchCriteria searchcriteria,
 			String input) throws IOException {
-		System.out.println("dealer                      :"
-				+ searchcriteria.getDealerName());
-		System.out.println("Tin                      :"
-				+ searchcriteria.getTinNumber());
-		System.out.println("Pan                      :"
-				+ searchcriteria.getPanNumber());
+		// System.out.println("dealer                      :"
+		// + searchcriteria.getDealerName());
+		// System.out.println("Tin                      :"
+		// + searchcriteria.getTinNumber());
+		// System.out.println("Pan                      :"
+		// + searchcriteria.getPanNumber());
 		List<TinDetail> tinDetails = datagetters.getTinDetails(searchcriteria);
+
 		if (tinDetails.isEmpty()) {
 			if (input.equals("tin")) {
 				System.out.println("Warning! Invalid TIN");
@@ -101,76 +110,139 @@ public class App {
 				System.out.println("Warning! Entity Not Registered under VAT");
 			}
 		} else {
-			if (input.equals("tin")
-					&& tinDetails.get(0).getStatus()
-							.contains(ScrapingConstants.Cancelled)) {
-				System.out.println("Warning! Cancelled TIN");
-			} else if ((!input.equals("pan"))
-					&& tinDetails.get(0).getStatus()
-							.contains(ScrapingConstants.Cancelled)) {
-				System.out.println("Warning! Cancelled Registration");
-			} else {
-				tinDetails = datagetters.getTinExplosionData(tinDetails);
-				core.printOutPut(tinDetails, true);
+			tinDetails = datagetters.getTinExplosionData(tinDetails,
+					searchcriteria);
+			for (TinDetail tinDetail : tinDetails) {
+				if (tinDetail.getStatus().contains(ScrapingConstants.Cancelled)
+						&& tinDetails.size() == 1) {
+					if (input.equals("tin")) {
+						System.out.println("Warning! Cancelled TIN");
+					} else {
+						System.out.println("Warning! Cancelled Registration");
+					}
+				} else {
+
+					System.out.println("TIN Valid Since "
+							+ tinDetail.getTinDetailExplosion()
+									.getEffectiveOrCancelledDate());
+
+				}
+
+				core.printOutPut(tinDetail, true);
 			}
 		}
 
 	}
 
-	private void printOutPut(List<TinDetail> tinDetails, boolean freqFlag) {
-		for (TinDetail tinDetail : tinDetails) {
-			System.out.print(tinDetail.getTinNumber());
-			System.out.print(ScrapingConstants.columnDelimeter);
-			System.out.print(tinDetail.getDealerName());
-			System.out.print(ScrapingConstants.columnDelimeter);
-			System.out.print(tinDetail.getStatus());
-			System.out.print(ScrapingConstants.columnDelimeter);
-			TinDetailExplosion tinDetailExplosion = tinDetail
-					.getTinDetailExplosion();
-			if (tinDetailExplosion != null) {
-				System.out.print(tinDetailExplosion
-						.getEffectiveOrCancelledDate());
-				System.out.print(ScrapingConstants.columnDelimeter);
+	// private void printOutPut(List<TinDetail> tinDetails, boolean freqFlag) {
+	// for (TinDetail tinDetail : tinDetails) {
+	// System.out.print(tinDetail.getTinNumber());
+	// System.out.print(ScrapingConstants.columnDelimeter);
+	// System.out.print(tinDetail.getDealerName());
+	// System.out.print(ScrapingConstants.columnDelimeter);
+	// System.out.print(tinDetail.getStatus());
+	// System.out.print(ScrapingConstants.columnDelimeter);
+	// TinDetailExplosion tinDetailExplosion = tinDetail
+	// .getTinDetailExplosion();
+	// if (tinDetailExplosion != null) {
+	// System.out.print(tinDetailExplosion
+	// .getEffectiveOrCancelledDate());
+	// System.out.print(ScrapingConstants.columnDelimeter);
+	//
+	// Address address = tinDetailExplosion
+	// .getTinDetailExplosionAddress();
+	// System.out.print(address.getAddressLineOne());
+	// System.out.print(ScrapingConstants.columnDelimeter);
+	// System.out.print(address.getStreetName());
+	// System.out.print(ScrapingConstants.columnDelimeter);
+	// System.out.print(address.getAddressLineTwo());
+	// System.out.print(ScrapingConstants.columnDelimeter);
+	// System.out.print(address.getAddressLineThree());
+	// System.out.print(ScrapingConstants.columnDelimeter);
+	// System.out.print(address.getTalukaName());
+	// System.out.print(ScrapingConstants.columnDelimeter);
+	// System.out.print(address.getDistrictName());
+	// System.out.print(ScrapingConstants.columnDelimeter);
+	// System.out.print(address.getCityName());
+	// System.out.print(ScrapingConstants.columnDelimeter);
+	// System.out.print(address.getStateName());
+	// System.out.print(ScrapingConstants.columnDelimeter);
+	// System.out.print(address.getPinCode());
+	// System.out.print(ScrapingConstants.columnDelimeter);
+	// System.out.print(tinDetailExplosion.getOldRCNo());
+	// System.out.print(ScrapingConstants.columnDelimeter);
+	// System.out.print(tinDetailExplosion.getLocationName());
+	// System.out.print(tinDetailExplosion.getActName());
+	// System.out.print(ScrapingConstants.columnDelimeter);
+	// System.out.print(ScrapingConstants.RowDelimeter);
+	// if (freqFlag && tinDetailExplosion.getFreqeuncyData() != null) {
+	// List<FrequncyData> freqdataList = tinDetailExplosion
+	// .getFreqeuncyData();
+	// if (!freqdataList.isEmpty()) {
+	// System.out.println();
+	// for (FrequncyData freq : freqdataList) {
+	// System.out.println(freq.getFinYear().trim()
+	// + " ======== " + freq.getFrequencyName());
+	// }
+	// }
+	// }
+	// }
+	//
+	// }
+	// }
 
-				Address address = tinDetailExplosion
-						.getTinDetailExplosionAddress();
-				System.out.print(address.getAddressLineOne());
-				System.out.print(ScrapingConstants.columnDelimeter);
-				System.out.print(address.getStreetName());
-				System.out.print(ScrapingConstants.columnDelimeter);
-				System.out.print(address.getAddressLineTwo());
-				System.out.print(ScrapingConstants.columnDelimeter);
-				System.out.print(address.getAddressLineThree());
-				System.out.print(ScrapingConstants.columnDelimeter);
-				System.out.print(address.getTalukaName());
-				System.out.print(ScrapingConstants.columnDelimeter);
-				System.out.print(address.getDistrictName());
-				System.out.print(ScrapingConstants.columnDelimeter);
-				System.out.print(address.getCityName());
-				System.out.print(ScrapingConstants.columnDelimeter);
-				System.out.print(address.getStateName());
-				System.out.print(ScrapingConstants.columnDelimeter);
-				System.out.print(address.getPinCode());
-				System.out.print(ScrapingConstants.columnDelimeter);
-				System.out.print(tinDetailExplosion.getOldRCNo());
-				System.out.print(ScrapingConstants.columnDelimeter);
-				System.out.print(tinDetailExplosion.getLocationName());
-				System.out.print(tinDetailExplosion.getActName());
-				System.out.print(ScrapingConstants.columnDelimeter);
-				System.out.print(ScrapingConstants.RowDelimeter);
-				if (freqFlag && tinDetailExplosion.getFreqeuncyData() != null) {
-					List<FrequncyData> freqdataList = tinDetailExplosion
-							.getFreqeuncyData();
-					if (!freqdataList.isEmpty()) {
-						System.out.println();
-						for (FrequncyData freq : freqdataList) {
-							System.out.println(freq.getFinYear().trim()
-									+ " ======== " + freq.getFrequencyName());
-						}
+	private void printOutPut(TinDetail tinDetail, boolean freqFlag) {
+		// for (TinDetail tinDetail : tinDetails) {
+		System.out.print(tinDetail.getTinNumber());
+		System.out.print(ScrapingConstants.columnDelimeter);
+		System.out.print(tinDetail.getDealerName());
+		System.out.print(ScrapingConstants.columnDelimeter);
+		System.out.print(tinDetail.getStatus());
+		System.out.print(ScrapingConstants.columnDelimeter);
+		TinDetailExplosion tinDetailExplosion = tinDetail
+				.getTinDetailExplosion();
+		if (tinDetailExplosion != null) {
+			System.out.print(tinDetailExplosion.getEffectiveOrCancelledDate());
+			System.out.print(ScrapingConstants.columnDelimeter);
+
+			Address address = tinDetailExplosion.getTinDetailExplosionAddress();
+			System.out.print(address.getAddressLineOne());
+			System.out.print(ScrapingConstants.columnDelimeter);
+			System.out.print(address.getStreetName());
+			System.out.print(ScrapingConstants.columnDelimeter);
+			System.out.print(address.getAddressLineTwo());
+			System.out.print(ScrapingConstants.columnDelimeter);
+			System.out.print(address.getAddressLineThree());
+			System.out.print(ScrapingConstants.columnDelimeter);
+			System.out.print(address.getTalukaName());
+			System.out.print(ScrapingConstants.columnDelimeter);
+			System.out.print(address.getDistrictName());
+			System.out.print(ScrapingConstants.columnDelimeter);
+			System.out.print(address.getCityName());
+			System.out.print(ScrapingConstants.columnDelimeter);
+			System.out.print(address.getStateName());
+			System.out.print(ScrapingConstants.columnDelimeter);
+			System.out.print(address.getPinCode());
+			System.out.print(ScrapingConstants.columnDelimeter);
+			System.out.print(tinDetailExplosion.getOldRCNo());
+			System.out.print(ScrapingConstants.columnDelimeter);
+			System.out.print(tinDetailExplosion.getLocationName());
+			System.out.print(tinDetailExplosion.getActName());
+			System.out.print(ScrapingConstants.columnDelimeter);
+			System.out.print(ScrapingConstants.RowDelimeter);
+			if (freqFlag && tinDetailExplosion.getFreqeuncyData() != null) {
+				List<FrequncyData> freqdataList = tinDetailExplosion
+						.getFreqeuncyData();
+				if (!freqdataList.isEmpty()) {
+					System.out.println();
+					for (FrequncyData freq : freqdataList) {
+						System.out.println(freq.getFinYear().trim()
+								+ " ======== " + freq.getFrequencyName());
 					}
 				}
 			}
-
 		}
+
+		// }
 	}
 }

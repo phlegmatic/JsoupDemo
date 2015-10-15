@@ -16,7 +16,7 @@ public class ObjectMappers {
 		// TODO Auto-generated method stub
 		List<TinDetail> tinDetaillist = new ArrayList<TinDetail>();
 		String[] row = requiredTinDetailsData.split("\\,\\$");
-		int rowindex = 0;
+
 		for (String rowText : row) {
 			int index = 0;
 			String[] column = rowText.split(ScrapingConstants.columnDelimeter);

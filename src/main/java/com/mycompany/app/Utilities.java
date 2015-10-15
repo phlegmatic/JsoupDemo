@@ -15,22 +15,27 @@ public class Utilities {
 		StringBuilder tableString = new StringBuilder();
 		boolean firstSkipped = false; // Used to skip first 'tr' tag
 		Element table = doc.select(searchcondition).first();
-		for (Element row : table.select("tr")) // Select all 'tr' tags
-		{
-			// Skip the first 'tr' tag since it's the header
-			if (!firstSkipped) {
-				firstSkipped = true;
-				continue;
+		if (table != null) {
+			for (Element row : table.select("tr")) // Select all 'tr' tags
+			{
+				// Skip the first 'tr' tag since it's the header
+				if (!firstSkipped) {
+					firstSkipped = true;
+					continue;
+				}
+				for (Element cells : row.select("td")) {// Select all 'td' tags
+														// of
+														// the'tr'
+					tableString.append((cells.text()));
+					tableString.append(columnDelim);
+				}
+				tableString.append(rowDelim);
 			}
-			for (Element cells : row.select("td")) {// Select all 'td' tags of
-													// the'tr'
-				tableString.append((cells.text()));
-				tableString.append(columnDelim);
-			}
-			tableString.append(rowDelim);
-		}
 
-		return tableString.toString();
+			return tableString.toString();
+		} else {
+			return tableString.toString();
+		}
 	}
 
 	public String getTextBoxdata(Document doc, String searchcondition,

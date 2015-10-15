@@ -35,7 +35,7 @@ public class Quicktest {
 		}
 		Response response2 = connection2.data("tin", "").data("pan", "")
 				.data("rc_no", "").data("fptecno", "").data("bptecno", "")
-				.data("DEALERNAME", "test").data("Submit", "SEARCH")
+				.data("DEALERNAME", "ACL MOBILE LTD").data("Submit", "SEARCH")
 				.userAgent("Mozilla").execute();
 		cookies.putAll(response2.cookies());
 		Document document2 = response2.parse();

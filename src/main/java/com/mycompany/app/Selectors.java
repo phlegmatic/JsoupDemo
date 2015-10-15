@@ -26,12 +26,12 @@ public class Selectors {
 		String popUpData = utility.getPopUpData(doc, "[colspan]",
 				ScrapingConstants.explsioncolumnDelimeter);
 
-		logger.info("Received data " + popUpData);
+		// logger.info("Received data " + popUpData);
 
 		String popUpFreqData = utility.getTextBoxdata(doc, "input.subhead-1",
 				ScrapingConstants.columnDelimeter);
 
-		logger.info("Received data " + popUpFreqData);
+		// logger.info("Received data " + popUpFreqData);
 
 		return popUpData + "%%%" + popUpFreqData;
 

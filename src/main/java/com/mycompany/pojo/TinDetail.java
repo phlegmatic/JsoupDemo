@@ -7,6 +7,7 @@ public class TinDetail {
 	private String tinNumber;
 	private String dealerName;
 	private String status;
+	private String output;
 	private TinDetailExplosion tinDetailExplosion;
 
 	public String getSearialNO() {
@@ -44,6 +45,12 @@ public class TinDetail {
 	}
 	public void setTinDetailExplosion(TinDetailExplosion tinDetailExplosion) {
 		this.tinDetailExplosion = tinDetailExplosion;
+	}
+	public void setOutput(String output) {
+		this.output = output;
+	}
+	public String getOutput() {
+		return output;
 	}
 
 }

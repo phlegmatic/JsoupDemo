@@ -1,9 +1,9 @@
 package com.mycompany.pojo;
 
 public class SearchCriteria {
-	private String tinNumber;
-	private String panNumber;
-	private String dealerName;
+	private String tinNumber = "";
+	private String panNumber = "";
+	private String dealerName = "";
 
 	public String getTinNumber() {
 		return tinNumber;

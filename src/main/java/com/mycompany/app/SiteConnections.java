@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.net.SocketTimeoutException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 
 import org.jsoup.Connection;
 import org.jsoup.Connection.Response;
@@ -14,16 +13,22 @@ import org.jsoup.nodes.Document;
 import com.mycompany.pojo.SearchCriteria;
 
 public class SiteConnections {
-	private final Map<String, String> cookies = new HashMap<String, String>();
+	private static Map<String, String> cookies = new HashMap<String, String>();
 
 	public Document getInitalCookies(String url) throws IOException {
-		Connection connection = Jsoup.connect(url).timeout(10 * 1000);
-		for (Entry<String, String> cookie : cookies.entrySet()) {
-			connection.cookie(cookie.getKey(), cookie.getValue());
-		}
+
+		cookies = new HashMap<String, String>();
+		// System.out.println("1" + cookies.toString());
+		Connection connection = Jsoup.connect(url).timeout(10 * 1000)
+				.cookies(cookies);
+		// for (Entry<String, String> cookie : cookies.entrySet()) {
+		// connection.cookie(cookie.getKey(), cookie.getValue());
+		// }
+		// System.out.println("2" + cookies.toString());
 		try {
 			Response response = connection.execute();
 			cookies.putAll(response.cookies());
+			// System.out.println("2" + cookies.toString());
 			return response.parse();
 		} catch (IOException e) {
 			System.out.println("Connection Problem!");
@@ -34,10 +39,13 @@ public class SiteConnections {
 
 	public Document getTinDetaildoc(String url, SearchCriteria searchcriteria)
 			throws SocketTimeoutException, IOException {
-		Connection connection = Jsoup.connect(url).timeout(10 * 1000);
-		for (Entry<String, String> cookie : cookies.entrySet()) {
-			connection.cookie(cookie.getKey(), cookie.getValue());
-		}
+
+		Connection connection = Jsoup.connect(url).timeout(10 * 1000)
+				.cookies(cookies);
+		// for (Entry<String, String> cookie : cookies.entrySet()) {
+		// connection.cookie(cookie.getKey(), cookie.getValue());
+		// }
+		// System.out.println("3" + cookies.toString());
 		Response response;
 		try {
 			response = connection.data("tin", searchcriteria.getTinNumber())
@@ -46,6 +54,7 @@ public class SiteConnections {
 					.data("DEALERNAME", searchcriteria.getDealerName())
 					.data("Submit", "SEARCH").userAgent("Mozilla").execute();
 			cookies.putAll(response.cookies());
+			// System.out.println("4" + cookies.toString());
 			return response.parse();
 		}
 
@@ -58,15 +67,19 @@ public class SiteConnections {
 	}
 
 	public Document getTinDetailPopUpdoc(String url) throws IOException {
-		Connection connection = Jsoup.connect(url).timeout(10 * 1000);
-		for (Entry<String, String> cookie : cookies.entrySet()) {
-			connection.cookie(cookie.getKey(), cookie.getValue());
-		}
+		// System.out.println(url);
+		Connection connection = Jsoup.connect(url).timeout(10 * 1000)
+				.cookies(cookies);
+		// for (Entry<String, String> cookie : cookies.entrySet()) {
+		// connection.cookie(cookie.getKey(), cookie.getValue());
+		// }
+		// System.out.println("5" + cookies.toString());
 		Response response = connection
 				.header("Accept-Encoding", "gzip, deflate, sdch")
 				.referrer(ScrapingConstants.SearchURL).userAgent("Mozilla")
 				.execute();
-		// cookies.putAll(response.cookies());
+		cookies.putAll(response.cookies());
+		// System.out.println("6" + cookies.toString());
 		return response.parse();
 	}
 }
