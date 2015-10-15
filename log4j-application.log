@@ -14516,3 +14516,502 @@ window.external.AddFavorite(url, title);
           </label>--> 
  </body>
 </html>
+2015-10-14 21:40:18 INFO  App:201 - Received data 1,,27980584513V,TEST,Pending(),$2,,,TEST,Rejected(),$3,,,TEST,Rejected(),$4,,,TEST,Rejected(),$5,,,TEST,Rejected(),$6,,,TEST,Rejected(),$7,,,TEST,Pending(),$8,,,TEST 1,Rejected(),$9,,,TEST DATA FOR MASTEK,Pending(),$10,,27110639748V,TEST DATA FOR MASTEK(16/01/2008),Pending(),$11,,27200639747V,TEST DATA FOR MASTEK(16/01/2008),Pending(),$12,,,TEST DATA FOR MSTD,Pending(),$13,,,TEST DEALER FOR CHECKING,Pending(),$14,,,TEST Export,Pending(),$15,400607S1210,27800349387V,TEST FIELD ELECTRIC,Active(20060401),$16,400607C1148,27800349387C,TEST FIELD ELECTRIC,Active(20060401),$17,,27680963172C,TEST FIELD TRANSFORMERS PRIVATE LIMITEDTD,Active(20130212),$18,,27680963172V,TEST FIELD TRANSFORMERS PRIVATE LIMITEDTD,Active(20130212),$19,,,TEST FOR MASTEK,Pending(),$20,,,TEST MASTE0000K,Pending(),$21,,,TEST PTEC,Pending(),$22,,,TEST PTRC,Pending(),$23,,,TEST REJECTION,Pending(),$24,,,TEST REJECTION,Pending(),$25,,,TEST REJECTION,Pending(),$26,,,TEST REJECTION,Pending(),$27,,,TEST REJECTION,Pending(),$28,,99501610140P,TEST SQUAD,Active(20071102),$29,416436S607,27410159142V,TEST TECH,Active(20060401),$30,416436C598,27410159142C,TEST TECH,Active(20060401),$31,,99581947171P,TEST TECH,Active(20120705),$32,,99861947114P,TEST TECH,Active(20120705),$33,400072S1748,27660072141V,TEST TECHNICS PVT LTD,Active(20060401),$34,400072C1499,27660072141C,TEST TECHNICS PVT LTD,Active(20060401),$35,,99272169714P,TEST TECHNICS PVT LTD,Active(20140410),$36,400078S1271,27760033674V,TEST TECHNIQUE,Active(20060401),$37,400078C904,27760033674C,TEST TECHNIQUE,Active(20060401),$38,1/1/30/2586,27660072141P,TEST TECHNO,Active(),$39,3/4/3/8,27210265373P,TEST TILE PARESHAN OF MARATHWADA LTD,Active(),$40,400092S2596,27130213713V,TEST WELL TRADER,Active(20060401),$41,400092C2207,27130213713C,TEST WELL TRADER,Active(20060401),$42,,,TEST1,Rejected(),$43,,27740614230V,TEST4444TTEST4444T,Cancelled(20070619),$44,,99382058831P,TESTBYTES SOFTWARE PRIVATE LIMITED,Active(20130628),$45,,27205264222P,TESTBYTESSOFTWAREPRIVATELIMITED,Active(10110924),$46,,27470600847C,TESTCRAFT,Active(20070410),$47,,27470600847V,TESTCRAFT,Active(20070410),$48,,27900596779V,TESTDATA,Cancelled(20070321),$49,,27900596779P,TESTDATA,Active(20110201),$50,,27110596971V,TESTDATA (FOR MASTEK)21032007,Cancelled(20080201),$51,,,TESTDATA FOR MASTEK,Pending(),$52,,,TESTDATA FOR MASTEK(31/11/2007),Pending(),$53,,,TESTDATA FOR MSTD,Pending(),$54,,27850596952V,TESTDATA(FOR MASTEK)21032007,Cancelled(20080201),$55,,27840596812V,TESTDATA(MASTEK)21032007,Cancelled(20080202),$56,,99241600001P,TESTDATAFORMASTEK,Cancelled(20080131),$57,,27060640406V,TESTDATAFORMASTEK(1/12/2007),Pending(),$58,,,TESTDATAFORMASTEK(1/12/2007),Pending(),$59,,27540634322C,TESTDATAFORMASTEK(3/12/07),Active(20071201),$60,,27540634322S,TESTDATAFORMASTEK(4/12/2007),Active(),$61,,27390634550C,TESTDATAFORMASTEK(4/12/2007),Pending(),$62,,27545000001P,TESTDATAFORMASTEK-RC,Active(20070601),$63,,27810584073V,TESTDEALER1,Pending(),$64,,27650580863V,TESTDEALER1,Pending(),$65,,27550581888V,TESTDEALERFORMASTEK - NEW,Cancelled(20070308),$66,,,TESTDEALERFORTRAINING,Pending(),$67,11002118000632,99300025270P,TESTEELS LTD,Active(19750401),$68,400092S1901,27860026635V,TESTEK CORPORATION,Active(20060401),$69,400092C1590,27860026635C,TESTEK CORPORATION,Active(20060401),$70,,27860026635P,TESTEK CORPORATION,Active(20120515),$71,1/1/34/9938,27895072607P,TESTEK LABEQUIPMENT INDIA PVT LTD,Active(),$72,1/1/31/5000,27425063117P,TESTEX NDT INDIA PVT LTD,Active(20100101),$73,,99162264107P,TESTEX NDT INDIA PVT. LTD.,Active(20150205),$74,35060008000205,99881224550P,TESTEY SOFT WORLD,Active(20000401),$75,,99221600012P,TESTFORPTECMASTEKREF,Active(20070702),$76,,99712296736P,TESTIN AUTOMOTIVE PRIVATE LIMITED,Active(20150316),$77,,27775201877P,TESTINDIA,Active(),$78,,,TESTING,Rejected(),$79,,27420900459V,TESTING EQUIPMENTS ENTERPRISES,Active(20120416),$80,,27420900459C,TESTING EQUIPMENTS ENTERPRISES,Active(20120416),$81,,99241937852P,TESTING EQUIPMENTS ENTERPRISES,Active(20120401),$82,,27540555364V,TESTING MACHINE SERVICES,Active(20060822),$83,,27540555364C,TESTING MACHINE SERVICES,Active(20060401),$84,,27540555364P,TESTING MACHINE SERVICES,Active(20110201),$85,,27915229736P,TESTINGOLOGY,Active(20101122),$86,,27565282745P,TESTKARTONLINEPRIVATELIMITED,Active(11167752),$87,,27970730843V,TESTLANE SYSTEMS,Active(20091028),$88,,27970730843C,TESTLANE SYSTEMS,Active(20091028),$89,,99641609869P,TESTMASTEK,Pending(),$90,,,TESTMASTEK1,Pending(),$91,,,TESTMASTEK2,Pending(),$92,,27180601152V,TESTMASTEK4,Cancelled(20070411),$93,,,TESTMASTEKJJ,Pending(),$94,2/2/6/24/462,27570410478P,TESTO ENGINEERING WORKS,Active(),$95,412205S170,27570410478V,TESTO ENGINEERING WORKS PVT LTD,Active(20060401),$96,412205C124,27570410478C,TESTO ENGINEERING WORKS PVT LTD,Active(20060401),$97,411002S7381,27610080947V,TESTO FURNITURE,Active(20060401),$98,411002C5750,27610080947C,TESTO FURNITURE,Active(20060401),$99,,27580552238V,TESTO INDIA PRIVATE LIMITED,Active(20060719),$100,,27580552238C,TESTO INDIA PRIVATE LIMITED,Active(20060719),$101,,99921481190P,TESTO INDIA PVT LTD,Pending(),$102,,99141674261P,TESTO INDIA PVT LTD ( MR STEFAN DENZLER -DIR),Active(20080301),$103,,27830795813V,TESTO PRECISION MACHINING PVT LTD,Cancelled(20130331),$104,,27830795813C,TESTO PRECISION MACHINING PVT LTD,Cancelled(20130331),$105,,27580552238P,TESTOINDIAPAIVATELIMITED,Active(10211609),$106,400067S8626,27380360773V,TESTONI WORLD,Cancelled(20090401),$107,400067C7912,27380360773C,TESTONI WORLD,Cancelled(20090401),$108,,27260583066V,TESTREGI,Pending(),$109,,27880653535V,TESTRON ENGINEERS,Active(20080421),$110,,27880653535C,TESTRON ENGINEERS,Active(20080421),$111,400022S968,27780058883V,TESTRONIX,Active(20060401),$112,400022C808,27780058883C,TESTRONIX,Active(20060401),$113,,27780058883P,TESTRONIX,Active(20110201),$114,1/1/26/8059,27065042363P,TESTRONIX,Active(),$115,,27935201886P,TESTSQUAD,Active(),$116,,99941897115P,TESTTEX INDIA LABORATORIES PVT.LTD.,Active(20111230),$117,,27085243045P,TESTTEX INDIA LABORATORIES PVT.LTD.,Active(20111230),$118,400013S530,27810109937V,TESTUBES MECHANICAL INDUSTRIES,Active(20060401),$119,400013C451,27810109937C,TESTUBES MECHANICAL INDUSTRIES,Active(20060401),$120,,11002708301741,TESTUBES MECHANICAL INDUSTRIES,Cancelled(),$121,,27800622442V,TESTVATDATAFORMASTEK1,Cancelled(20070831),$122,,27710579084V,TESTVATDEALER,Cancelled(20110401),$123,416115S5918,27220329530V,TESTWELL ENGINEERS,Active(20060401),$124,416115C4026,27220329530C,TESTWELL ENGINEERS,Active(20060401),$125,400607V0053,27900332842V,TESTWELL ENTERPRISES,Cancelled(20130930),$126,400607C1995,27900332842C,TESTWELL ENTERPRISES,Cancelled(20130930),$127,416117V0044,27210369742V,TESTWELL INSTRUMENTS,Active(20060401),$128,416117C226,27210369742C,TESTWELL INSTRUMENTS,Active(20060401),$129,,27210369742P,TESTWELL INSTRUMENTS,Active(20100827),$130,1/1/26/8348,27535042444P,TESTWELL SCIENTIFIC INSTRUMENT (P) LTD,Active(),$131,400022S519,27700062322V,TESTWELL SCIENTIFIC INSTRUMENTS PVT. LTD.,Cancelled(20150331),$132,400022C459,27700062322C,TESTWELL SCIENTIFIC INSTRUMENTS PVT. LTD.,Cancelled(20150331),$133,,27700062322P,TESTWELL SCIENTIFIC INSTRUMENTS PVT. LTD.,Active(20110201),$134,411038V0286,27910340063V,TESTY CORNER,Active(20060401),$135,2/2/8/6132,27225104549P,TESTY BITE EATBAL LTD,Cancelled(20130405),$136,400012S00413,27240113306V,TESTY CHIVADA,Active(20060401),$137,42030010002366,99361251123P,TESTY EMPURIUM,Active(),$
+2015-10-14 21:40:55 INFO  App:201 - Received data 1,,27980584513V,TEST,Pending(),$2,,,TEST,Rejected(),$3,,,TEST,Rejected(),$4,,,TEST,Rejected(),$5,,,TEST,Rejected(),$6,,,TEST,Rejected(),$7,,,TEST,Pending(),$8,,,TEST 1,Rejected(),$9,,,TEST DATA FOR MASTEK,Pending(),$10,,27110639748V,TEST DATA FOR MASTEK(16/01/2008),Pending(),$11,,27200639747V,TEST DATA FOR MASTEK(16/01/2008),Pending(),$12,,,TEST DATA FOR MSTD,Pending(),$13,,,TEST DEALER FOR CHECKING,Pending(),$14,,,TEST Export,Pending(),$15,400607S1210,27800349387V,TEST FIELD ELECTRIC,Active(20060401),$16,400607C1148,27800349387C,TEST FIELD ELECTRIC,Active(20060401),$17,,27680963172C,TEST FIELD TRANSFORMERS PRIVATE LIMITEDTD,Active(20130212),$18,,27680963172V,TEST FIELD TRANSFORMERS PRIVATE LIMITEDTD,Active(20130212),$19,,,TEST FOR MASTEK,Pending(),$20,,,TEST MASTE0000K,Pending(),$21,,,TEST PTEC,Pending(),$22,,,TEST PTRC,Pending(),$23,,,TEST REJECTION,Pending(),$24,,,TEST REJECTION,Pending(),$25,,,TEST REJECTION,Pending(),$26,,,TEST REJECTION,Pending(),$27,,,TEST REJECTION,Pending(),$28,,99501610140P,TEST SQUAD,Active(20071102),$29,416436S607,27410159142V,TEST TECH,Active(20060401),$30,416436C598,27410159142C,TEST TECH,Active(20060401),$31,,99581947171P,TEST TECH,Active(20120705),$32,,99861947114P,TEST TECH,Active(20120705),$33,400072S1748,27660072141V,TEST TECHNICS PVT LTD,Active(20060401),$34,400072C1499,27660072141C,TEST TECHNICS PVT LTD,Active(20060401),$35,,99272169714P,TEST TECHNICS PVT LTD,Active(20140410),$36,400078S1271,27760033674V,TEST TECHNIQUE,Active(20060401),$37,400078C904,27760033674C,TEST TECHNIQUE,Active(20060401),$38,1/1/30/2586,27660072141P,TEST TECHNO,Active(),$39,3/4/3/8,27210265373P,TEST TILE PARESHAN OF MARATHWADA LTD,Active(),$40,400092S2596,27130213713V,TEST WELL TRADER,Active(20060401),$41,400092C2207,27130213713C,TEST WELL TRADER,Active(20060401),$42,,,TEST1,Rejected(),$43,,27740614230V,TEST4444TTEST4444T,Cancelled(20070619),$44,,99382058831P,TESTBYTES SOFTWARE PRIVATE LIMITED,Active(20130628),$45,,27205264222P,TESTBYTESSOFTWAREPRIVATELIMITED,Active(10110924),$46,,27470600847C,TESTCRAFT,Active(20070410),$47,,27470600847V,TESTCRAFT,Active(20070410),$48,,27900596779V,TESTDATA,Cancelled(20070321),$49,,27900596779P,TESTDATA,Active(20110201),$50,,27110596971V,TESTDATA (FOR MASTEK)21032007,Cancelled(20080201),$51,,,TESTDATA FOR MASTEK,Pending(),$52,,,TESTDATA FOR MASTEK(31/11/2007),Pending(),$53,,,TESTDATA FOR MSTD,Pending(),$54,,27850596952V,TESTDATA(FOR MASTEK)21032007,Cancelled(20080201),$55,,27840596812V,TESTDATA(MASTEK)21032007,Cancelled(20080202),$56,,99241600001P,TESTDATAFORMASTEK,Cancelled(20080131),$57,,27060640406V,TESTDATAFORMASTEK(1/12/2007),Pending(),$58,,,TESTDATAFORMASTEK(1/12/2007),Pending(),$59,,27540634322C,TESTDATAFORMASTEK(3/12/07),Active(20071201),$60,,27540634322S,TESTDATAFORMASTEK(4/12/2007),Active(),$61,,27390634550C,TESTDATAFORMASTEK(4/12/2007),Pending(),$62,,27545000001P,TESTDATAFORMASTEK-RC,Active(20070601),$63,,27810584073V,TESTDEALER1,Pending(),$64,,27650580863V,TESTDEALER1,Pending(),$65,,27550581888V,TESTDEALERFORMASTEK - NEW,Cancelled(20070308),$66,,,TESTDEALERFORTRAINING,Pending(),$67,11002118000632,99300025270P,TESTEELS LTD,Active(19750401),$68,400092S1901,27860026635V,TESTEK CORPORATION,Active(20060401),$69,400092C1590,27860026635C,TESTEK CORPORATION,Active(20060401),$70,,27860026635P,TESTEK CORPORATION,Active(20120515),$71,1/1/34/9938,27895072607P,TESTEK LABEQUIPMENT INDIA PVT LTD,Active(),$72,1/1/31/5000,27425063117P,TESTEX NDT INDIA PVT LTD,Active(20100101),$73,,99162264107P,TESTEX NDT INDIA PVT. LTD.,Active(20150205),$74,35060008000205,99881224550P,TESTEY SOFT WORLD,Active(20000401),$75,,99221600012P,TESTFORPTECMASTEKREF,Active(20070702),$76,,99712296736P,TESTIN AUTOMOTIVE PRIVATE LIMITED,Active(20150316),$77,,27775201877P,TESTINDIA,Active(),$78,,,TESTING,Rejected(),$79,,27420900459V,TESTING EQUIPMENTS ENTERPRISES,Active(20120416),$80,,27420900459C,TESTING EQUIPMENTS ENTERPRISES,Active(20120416),$81,,99241937852P,TESTING EQUIPMENTS ENTERPRISES,Active(20120401),$82,,27540555364V,TESTING MACHINE SERVICES,Active(20060822),$83,,27540555364C,TESTING MACHINE SERVICES,Active(20060401),$84,,27540555364P,TESTING MACHINE SERVICES,Active(20110201),$85,,27915229736P,TESTINGOLOGY,Active(20101122),$86,,27565282745P,TESTKARTONLINEPRIVATELIMITED,Active(11167752),$87,,27970730843V,TESTLANE SYSTEMS,Active(20091028),$88,,27970730843C,TESTLANE SYSTEMS,Active(20091028),$89,,99641609869P,TESTMASTEK,Pending(),$90,,,TESTMASTEK1,Pending(),$91,,,TESTMASTEK2,Pending(),$92,,27180601152V,TESTMASTEK4,Cancelled(20070411),$93,,,TESTMASTEKJJ,Pending(),$94,2/2/6/24/462,27570410478P,TESTO ENGINEERING WORKS,Active(),$95,412205S170,27570410478V,TESTO ENGINEERING WORKS PVT LTD,Active(20060401),$96,412205C124,27570410478C,TESTO ENGINEERING WORKS PVT LTD,Active(20060401),$97,411002S7381,27610080947V,TESTO FURNITURE,Active(20060401),$98,411002C5750,27610080947C,TESTO FURNITURE,Active(20060401),$99,,27580552238V,TESTO INDIA PRIVATE LIMITED,Active(20060719),$100,,27580552238C,TESTO INDIA PRIVATE LIMITED,Active(20060719),$101,,99921481190P,TESTO INDIA PVT LTD,Pending(),$102,,99141674261P,TESTO INDIA PVT LTD ( MR STEFAN DENZLER -DIR),Active(20080301),$103,,27830795813V,TESTO PRECISION MACHINING PVT LTD,Cancelled(20130331),$104,,27830795813C,TESTO PRECISION MACHINING PVT LTD,Cancelled(20130331),$105,,27580552238P,TESTOINDIAPAIVATELIMITED,Active(10211609),$106,400067S8626,27380360773V,TESTONI WORLD,Cancelled(20090401),$107,400067C7912,27380360773C,TESTONI WORLD,Cancelled(20090401),$108,,27260583066V,TESTREGI,Pending(),$109,,27880653535V,TESTRON ENGINEERS,Active(20080421),$110,,27880653535C,TESTRON ENGINEERS,Active(20080421),$111,400022S968,27780058883V,TESTRONIX,Active(20060401),$112,400022C808,27780058883C,TESTRONIX,Active(20060401),$113,,27780058883P,TESTRONIX,Active(20110201),$114,1/1/26/8059,27065042363P,TESTRONIX,Active(),$115,,27935201886P,TESTSQUAD,Active(),$116,,99941897115P,TESTTEX INDIA LABORATORIES PVT.LTD.,Active(20111230),$117,,27085243045P,TESTTEX INDIA LABORATORIES PVT.LTD.,Active(20111230),$118,400013S530,27810109937V,TESTUBES MECHANICAL INDUSTRIES,Active(20060401),$119,400013C451,27810109937C,TESTUBES MECHANICAL INDUSTRIES,Active(20060401),$120,,11002708301741,TESTUBES MECHANICAL INDUSTRIES,Cancelled(),$121,,27800622442V,TESTVATDATAFORMASTEK1,Cancelled(20070831),$122,,27710579084V,TESTVATDEALER,Cancelled(20110401),$123,416115S5918,27220329530V,TESTWELL ENGINEERS,Active(20060401),$124,416115C4026,27220329530C,TESTWELL ENGINEERS,Active(20060401),$125,400607V0053,27900332842V,TESTWELL ENTERPRISES,Cancelled(20130930),$126,400607C1995,27900332842C,TESTWELL ENTERPRISES,Cancelled(20130930),$127,416117V0044,27210369742V,TESTWELL INSTRUMENTS,Active(20060401),$128,416117C226,27210369742C,TESTWELL INSTRUMENTS,Active(20060401),$129,,27210369742P,TESTWELL INSTRUMENTS,Active(20100827),$130,1/1/26/8348,27535042444P,TESTWELL SCIENTIFIC INSTRUMENT (P) LTD,Active(),$131,400022S519,27700062322V,TESTWELL SCIENTIFIC INSTRUMENTS PVT. LTD.,Cancelled(20150331),$132,400022C459,27700062322C,TESTWELL SCIENTIFIC INSTRUMENTS PVT. LTD.,Cancelled(20150331),$133,,27700062322P,TESTWELL SCIENTIFIC INSTRUMENTS PVT. LTD.,Active(20110201),$134,411038V0286,27910340063V,TESTY CORNER,Active(20060401),$135,2/2/8/6132,27225104549P,TESTY BITE EATBAL LTD,Cancelled(20130405),$136,400012S00413,27240113306V,TESTY CHIVADA,Active(20060401),$137,42030010002366,99361251123P,TESTY EMPURIUM,Active(),$
+2015-10-14 21:40:55 INFO  App:185 - Received data Dealer Name@TESTBYTESSOFTWAREPRIVATELIMITED@$Tin Number@27205264222P@$Effective/Canceled Date@10110924@$Address1@AURORATOWERS,OFFICENO315,3RDFLOOR@$Street Name@@$Address2@DR.AMBEDKARROAD@$Address3@PUNE@$Taluka Name@PUNECITY@$District Name@PUNE@$City Name@PUNE(CB)@$State Name@MAHARASHTRA@$Pin Code@411001@$Old RC No@@$Location Name@@$Act Name@@$$
+2015-10-14 21:40:55 INFO  App:190 - Received data Dealer Name@TESTBYTESSOFTWAREPRIVATELIMITED@$Tin Number@27205264222P@$Effective/Canceled Date@10110924@$Address1@AURORATOWERS,OFFICENO315,3RDFLOOR@$Street Name@@$Address2@DR.AMBEDKARROAD@$Address3@PUNE@$Taluka Name@PUNECITY@$District Name@PUNE@$City Name@PUNE(CB)@$State Name@MAHARASHTRA@$Pin Code@411001@$Old RC No@@$Location Name@@$Act Name@@$$
+2015-10-14 21:40:55 INFO  App:131 - base doc is are<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+  <title>Untitled Document</title> 
+ </head> 
+ <body> 
+  <table width="65%" border="1" cellpadding="0" cellspacing="0"> 
+   <tbody>
+    <tr> 
+     <th height="30" colspan="8" bgcolor="#e0cde9" class="subhead-1">
+      <div align="left">
+        &nbsp;&nbsp;&nbsp;&nbsp;TIN DETAILS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DATE :2015-10-14-21.40.26.000762 
+      </div></th> 
+    </tr> 
+    <tr class="bg-white" bgcolor="#f6f3fd"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Dealer Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">TESTBYTESSOFTWAREPRIVATELIMITED </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Tin Number</td> 
+     <td colspan="5" align="left" bgcolor="#f6f3fd" class="head">27205264222P </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Effective/Canceled Date</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">10110924 </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Address1</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">AURORATOWERS,OFFICENO315,3RDFLOOR </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Street Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd"> </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Address2</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">DR.AMBEDKARROAD </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Address3</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">PUNE </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Taluka Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">PUNECITY </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">District Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">PUNE </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">City Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">PUNE(CB) </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">State Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">MAHARASHTRA </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Pin Code</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">411001 </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Old RC No</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd"> </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Location Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd"> </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Act Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd"> </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <th class="subhead-1" align="center" colspan="8"> </th> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="65%" border="1" cellpadding="0" cellspacing="0"> 
+   <tbody>
+    <tr> 
+     <th height="30" colspan="4" bgcolor="#e0cde9" class="subhead-1">
+      <div align="center">
+        FREQUENCY 
+      </div></th> 
+    </tr> 
+    <tr> 
+     <th width="26%" height="30" bgcolor="#e0cde9" class="subhead-1">Fin Year </th> 
+     <th width="26%" bgcolor="#e0cde9" class="subhead-1">Frequency Name </th> 
+    </tr> 
+    <tr> 
+     <th width="26%" bgcolor="#f6f3fd" class="subhead-1"><input name="finyear[0]" class="subhead-1" id="finyear[0]" value="2013 - 2014
+" readonly="" /></th> 
+     <th width="26%" bgcolor="#f6f3fd" class="subhead-1"><input name="fname[0]" class="subhead-1" id="fname[0]" value="Quarterly
+" readonly="" /></th> 
+    </tr> 
+   </tbody>
+  </table> 
+  <!--   <label><center>
+          <input type="button" value="back" onClick="history.back()"/>
+          </center>
+          </label>-->   
+ </body>
+</html>
+2015-10-14 21:50:05 INFO  App:211 - Received data 1,,99571812880P,ACL MOBILE LTD,Active(20101230),$2,,27965231600P,ACL MOBILE LTD,Active(20101230),$
+2015-10-14 21:50:05 INFO  App:195 - Received data Dealer Name@ACL MOBILE LTD@$Tin Number@99571812880P@$Effective/Canceled Date@20101230@$Address1@303, COMMERCE CENTER,@$Street Name@@$Address2@B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,@$Address3@ANDHERI (W)@$Taluka Name@MUMBAI@$District Name@MUMBAI@$City Name@GREATER MUMBAI (M CORP.)@$State Name@MAHARASHTRA@$Pin Code@400053@$Old RC No@@$Location Name@@$Act Name@@$$
+2015-10-14 21:50:05 INFO  App:200 - Received data Dealer Name@ACL MOBILE LTD@$Tin Number@99571812880P@$Effective/Canceled Date@20101230@$Address1@303, COMMERCE CENTER,@$Street Name@@$Address2@B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,@$Address3@ANDHERI (W)@$Taluka Name@MUMBAI@$District Name@MUMBAI@$City Name@GREATER MUMBAI (M CORP.)@$State Name@MAHARASHTRA@$Pin Code@400053@$Old RC No@@$Location Name@@$Act Name@@$$
+2015-10-14 21:50:05 INFO  App:72 - base doc is are<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+  <title>Untitled Document</title> 
+ </head> 
+ <body> 
+  <table width="65%" border="1" cellpadding="0" cellspacing="0"> 
+   <tbody>
+    <tr> 
+     <th height="30" colspan="8" bgcolor="#e0cde9" class="subhead-1">
+      <div align="left">
+        &nbsp;&nbsp;&nbsp;&nbsp;TIN DETAILS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DATE :2015-10-14-21.49.36.000351 
+      </div></th> 
+    </tr> 
+    <tr class="bg-white" bgcolor="#f6f3fd"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Dealer Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">ACL MOBILE LTD </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Tin Number</td> 
+     <td colspan="5" align="left" bgcolor="#f6f3fd" class="head">99571812880P </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Effective/Canceled Date</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">20101230 </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Address1</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">303, COMMERCE CENTER, </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Street Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd"> </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Address2</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD, </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Address3</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">ANDHERI (W) </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Taluka Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">MUMBAI </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">District Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">MUMBAI </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">City Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">GREATER MUMBAI (M CORP.) </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">State Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">MAHARASHTRA </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Pin Code</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">400053 </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Old RC No</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd"> </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Location Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd"> </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Act Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd"> </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <th class="subhead-1" align="center" colspan="8"> </th> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="65%" border="1" cellpadding="0" cellspacing="0"> 
+   <tbody>
+    <tr> 
+     <th height="30" colspan="4" bgcolor="#e0cde9" class="subhead-1">
+      <div align="center">
+        FREQUENCY 
+      </div></th> 
+    </tr> 
+    <tr> 
+     <th width="26%" height="30" bgcolor="#e0cde9" class="subhead-1">Fin Year </th> 
+     <th width="26%" bgcolor="#e0cde9" class="subhead-1">Frequency Name </th> 
+    </tr> 
+    <tr> 
+     <th width="26%" bgcolor="#f6f3fd" class="subhead-1"><input name="finyear[0]" class="subhead-1" id="finyear[0]" value="2010 - 2011
+" readonly="" /></th> 
+     <th width="26%" bgcolor="#f6f3fd" class="subhead-1"><input name="fname[0]" class="subhead-1" id="fname[0]" value="Annual
+" readonly="" /></th> 
+    </tr> 
+   </tbody>
+  </table> 
+  <!--   <label><center>
+          <input type="button" value="back" onClick="history.back()"/>
+          </center>
+          </label>-->   
+ </body>
+</html>
+2015-10-14 21:50:43 INFO  App:72 - base doc is are<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+  <title>Untitled Document</title> 
+ </head> 
+ <body> 
+  <table width="65%" border="1" cellpadding="0" cellspacing="0"> 
+   <tbody>
+    <tr> 
+     <th height="30" colspan="8" bgcolor="#e0cde9" class="subhead-1">
+      <div align="left">
+        &nbsp;&nbsp;&nbsp;&nbsp;TIN DETAILS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DATE :2015-10-14-21.50.14.000292 
+      </div></th> 
+    </tr> 
+    <tr class="bg-white" bgcolor="#f6f3fd"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Dealer Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">ACL MOBILE LTD </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Tin Number</td> 
+     <td colspan="5" align="left" bgcolor="#f6f3fd" class="head">99571812880P </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Effective/Canceled Date</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">20101230 </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Address1</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">303, COMMERCE CENTER, </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Street Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd"> </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Address2</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD, </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Address3</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">ANDHERI (W) </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Taluka Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">MUMBAI </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">District Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">MUMBAI </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">City Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">GREATER MUMBAI (M CORP.) </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">State Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">MAHARASHTRA </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Pin Code</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd">400053 </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Old RC No</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd"> </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Location Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd"> </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <td align="left" class="head" bgcolor="#f6f3fd">Act Name</td> 
+     <td colspan="5" align="left" class="head" bgcolor="#f6f3fd"> </td> 
+    </tr> 
+    <tr class="bg-white"> 
+     <th class="subhead-1" align="center" colspan="8"> </th> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="65%" border="1" cellpadding="0" cellspacing="0"> 
+   <tbody>
+    <tr> 
+     <th height="30" colspan="4" bgcolor="#e0cde9" class="subhead-1">
+      <div align="center">
+        FREQUENCY 
+      </div></th> 
+    </tr> 
+    <tr> 
+     <th width="26%" height="30" bgcolor="#e0cde9" class="subhead-1">Fin Year </th> 
+     <th width="26%" bgcolor="#e0cde9" class="subhead-1">Frequency Name </th> 
+    </tr> 
+    <tr> 
+     <th width="26%" bgcolor="#f6f3fd" class="subhead-1"><input name="finyear[0]" class="subhead-1" id="finyear[0]" value="2010 - 2011
+" readonly="" /></th> 
+     <th width="26%" bgcolor="#f6f3fd" class="subhead-1"><input name="fname[0]" class="subhead-1" id="fname[0]" value="Annual
+" readonly="" /></th> 
+    </tr> 
+   </tbody>
+  </table> 
+  <!--   <label><center>
+          <input type="button" value="back" onClick="history.back()"/>
+          </center>
+          </label>-->   
+ </body>
+</html>
+2015-10-14 22:25:33 INFO  App:217 - Received data 1,,99571812880P,ACL MOBILE LTD,Active(20101230),$2,,27965231600P,ACL MOBILE LTD,Active(20101230),$
+2015-10-14 22:25:34 INFO  App:201 - Received data ACL MOBILE LTD@99571812880P@20101230@303, COMMERCE CENTER,@@B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,@ANDHERI (W)@MUMBAI@MUMBAI@GREATER MUMBAI (M CORP.)@MAHARASHTRA@400053@@@@@FREQUENCY@
+2015-10-14 22:25:34 INFO  App:206 - Received data ACL MOBILE LTD@99571812880P@20101230@303, COMMERCE CENTER,@@B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,@ANDHERI (W)@MUMBAI@MUMBAI@GREATER MUMBAI (M CORP.)@MAHARASHTRA@400053@@@@@FREQUENCY@
+2015-10-14 22:28:16 INFO  App:217 - Received data 1,,99571812880P,ACL MOBILE LTD,Active(20101230),$2,,27965231600P,ACL MOBILE LTD,Active(20101230),$
+2015-10-14 22:28:16 INFO  App:201 - Received data ACL MOBILE LTD@99571812880P@20101230@303, COMMERCE CENTER,@@B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,@ANDHERI (W)@MUMBAI@MUMBAI@GREATER MUMBAI (M CORP.)@MAHARASHTRA@400053@@@@@FREQUENCY@
+2015-10-14 22:28:16 INFO  App:206 - Received data ACL MOBILE LTD@99571812880P@20101230@303, COMMERCE CENTER,@@B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,@ANDHERI (W)@MUMBAI@MUMBAI@GREATER MUMBAI (M CORP.)@MAHARASHTRA@400053@@@@@FREQUENCY@
+2015-10-14 22:29:49 INFO  App:217 - Received data 1,,99571812880P,ACL MOBILE LTD,Active(20101230),$2,,27965231600P,ACL MOBILE LTD,Active(20101230),$
+2015-10-14 22:29:49 INFO  App:201 - Received data ACL MOBILE LTD,99571812880P,20101230,303, COMMERCE CENTER,,,B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,,ANDHERI (W),MUMBAI,MUMBAI,GREATER MUMBAI (M CORP.),MAHARASHTRA,400053,,,,,FREQUENCY,
+2015-10-14 22:29:49 INFO  App:206 - Received data ACL MOBILE LTD,99571812880P,20101230,303, COMMERCE CENTER,,,B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,,ANDHERI (W),MUMBAI,MUMBAI,GREATER MUMBAI (M CORP.),MAHARASHTRA,400053,,,,,FREQUENCY,
+2015-10-14 22:29:50 INFO  App:201 - Received data  ,Tin search Error Report,,, Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution   All copyrights reserved by Department of Sales Tax , Govt. of Maharashtra. Version 2.3 , Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution ,
+2015-10-14 22:29:50 INFO  App:206 - Received data  ,Tin search Error Report,,, Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution   All copyrights reserved by Department of Sales Tax , Govt. of Maharashtra. Version 2.3 , Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution ,
+2015-10-14 22:31:58 INFO  App:217 - Received data 1,,99571812880P,ACL MOBILE LTD,Active(20101230),$2,,27965231600P,ACL MOBILE LTD,Active(20101230),$
+2015-10-14 22:31:58 INFO  App:201 - Received data ACL MOBILE LTD,99571812880P,20101230,303, COMMERCE CENTER,,,B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,,ANDHERI (W),MUMBAI,MUMBAI,GREATER MUMBAI (M CORP.),MAHARASHTRA,400053,,,,,FREQUENCY,
+2015-10-14 22:31:58 INFO  App:206 - Received data ACL MOBILE LTD,99571812880P,20101230,303, COMMERCE CENTER,,,B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,,ANDHERI (W),MUMBAI,MUMBAI,GREATER MUMBAI (M CORP.),MAHARASHTRA,400053,,,,,FREQUENCY,
+2015-10-14 22:31:58 INFO  App:201 - Received data  ,Tin search Error Report,,, Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution   All copyrights reserved by Department of Sales Tax , Govt. of Maharashtra. Version 2.3 , Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution ,
+2015-10-14 22:31:58 INFO  App:206 - Received data  ,Tin search Error Report,,, Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution   All copyrights reserved by Department of Sales Tax , Govt. of Maharashtra. Version 2.3 , Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution ,
+2015-10-14 22:42:08 INFO  Selectors:18 - Received data 1,,99571812880P,ACL MOBILE LTD,Active(20101230),$2,,27965231600P,ACL MOBILE LTD,Active(20101230),$
+2015-10-14 22:42:08 INFO  Selectors:29 - Received data ACL MOBILE LTD,99571812880P,20101230,303, COMMERCE CENTER,,,B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,,ANDHERI (W),MUMBAI,MUMBAI,GREATER MUMBAI (M CORP.),MAHARASHTRA,400053,,,,,FREQUENCY,
+2015-10-14 22:42:08 INFO  Selectors:34 - Received data 2010 - 2011
+,Annual
+,
+2015-10-14 22:42:08 INFO  Selectors:29 - Received data  ,Tin search Error Report,,, Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution   All copyrights reserved by Department of Sales Tax , Govt. of Maharashtra. Version 2.3 , Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution ,
+2015-10-14 22:42:08 INFO  Selectors:34 - Received data 
+2015-10-14 22:44:55 INFO  Selectors:18 - Received data 1,,99571812880P,ACL MOBILE LTD,Active(20101230),$2,,27965231600P,ACL MOBILE LTD,Active(20101230),$
+2015-10-14 22:49:01 INFO  Selectors:29 - Received data ACL MOBILE LTD,99571812880P,20101230,303, COMMERCE CENTER,,,B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,,ANDHERI (W),MUMBAI,MUMBAI,GREATER MUMBAI (M CORP.),MAHARASHTRA,400053,,,,,FREQUENCY,
+2015-10-14 22:49:31 INFO  Selectors:34 - Received data 2010 - 2011
+,Annual
+,
+2015-10-14 22:50:31 INFO  Selectors:29 - Received data  ,Tin search Error Report,,, Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution   All copyrights reserved by Department of Sales Tax , Govt. of Maharashtra. Version 2.3 , Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution ,
+2015-10-14 22:50:31 INFO  Selectors:34 - Received data 
+2015-10-14 22:51:35 INFO  Selectors:18 - Received data 1,,99571812880P,ACL MOBILE LTD,Active(20101230),$2,,27965231600P,ACL MOBILE LTD,Active(20101230),$
+2015-10-14 22:51:36 INFO  Selectors:29 - Received data ACL MOBILE LTD@99571812880P@20101230@303, COMMERCE CENTER,@@B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,@ANDHERI (W)@MUMBAI@MUMBAI@GREATER MUMBAI (M CORP.)@MAHARASHTRA@400053@@@@@FREQUENCY@
+2015-10-14 22:51:36 INFO  Selectors:34 - Received data 2010 - 2011
+,Annual
+,
+2015-10-14 22:51:36 INFO  Selectors:29 - Received data  @Tin search Error Report@@@ Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution   All copyrights reserved by Department of Sales Tax , Govt. of Maharashtra. Version 2.3 @ Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution @
+2015-10-14 22:51:36 INFO  Selectors:34 - Received data 
+2015-10-14 22:53:13 INFO  Selectors:18 - Received data 1,,99571812880P,ACL MOBILE LTD,Active(20101230),$2,,27965231600P,ACL MOBILE LTD,Active(20101230),$
+2015-10-14 22:53:14 INFO  Selectors:29 - Received data  @Tin search Error Report@@@ Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution   All copyrights reserved by Department of Sales Tax , Govt. of Maharashtra. Version 2.3 @ Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution @
+2015-10-14 22:53:14 INFO  Selectors:34 - Received data 
+2015-10-14 22:55:01 INFO  Selectors:18 - Received data 1,,99571812880P,ACL MOBILE LTD,Active(20101230),$2,,27965231600P,ACL MOBILE LTD,Active(20101230),$
+2015-10-14 22:55:01 INFO  Selectors:29 - Received data ACL MOBILE LTD@99571812880P@20101230@303, COMMERCE CENTER,@@B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,@ANDHERI (W)@MUMBAI@MUMBAI@GREATER MUMBAI (M CORP.)@MAHARASHTRA@400053@@@@@FREQUENCY@
+2015-10-14 22:55:01 INFO  Selectors:34 - Received data 2010 - 2011
+,Annual
+,
+2015-10-14 22:55:02 INFO  Selectors:29 - Received data  @Tin search Error Report@@@ Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution   All copyrights reserved by Department of Sales Tax , Govt. of Maharashtra. Version 2.3 @ Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution @
+2015-10-14 22:55:02 INFO  Selectors:34 - Received data 
+2015-10-14 22:57:03 INFO  Selectors:18 - Received data 1,,99571812880P,ACL MOBILE LTD,Active(20101230),$2,,27965231600P,ACL MOBILE LTD,Active(20101230),$
+2015-10-14 22:57:03 INFO  Selectors:29 - Received data ACL MOBILE LTD@99571812880P@20101230@303, COMMERCE CENTER,@@B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,@ANDHERI (W)@MUMBAI@MUMBAI@GREATER MUMBAI (M CORP.)@MAHARASHTRA@400053@@@@@FREQUENCY@
+2015-10-14 22:57:03 INFO  Selectors:34 - Received data 2010 - 2011
+,Annual
+,
+2015-10-14 22:57:03 INFO  Selectors:29 - Received data  @Tin search Error Report@@@ Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution   All copyrights reserved by Department of Sales Tax , Govt. of Maharashtra. Version 2.3 @ Contact Us | Disclaimer | Send to Friend | Sitemap | Bookmark this site | Privacy Policy | Terms & Conditions This site is designed to view in 1024 X 768 resolution @
+2015-10-14 22:57:03 INFO  Selectors:34 - Received data 
+2015-10-14 23:03:18 INFO  Selectors:18 - Received data 1,,99571812880P,ACL MOBILE LTD,Active(20101230),$2,,27965231600P,ACL MOBILE LTD,Active(20101230),$
+2015-10-14 23:03:19 INFO  Selectors:29 - Received data ACL MOBILE LTD@99571812880P@20101230@303, COMMERCE CENTER,@@B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,@ANDHERI (W)@MUMBAI@MUMBAI@GREATER MUMBAI (M CORP.)@MAHARASHTRA@400053@@@@@FREQUENCY@
+2015-10-14 23:03:19 INFO  Selectors:34 - Received data 2010 - 2011
+,Annual
+,
+2015-10-14 23:03:19 INFO  Selectors:29 - Received data ACL MOBILE LTD@27965231600P@20101230@303, COMMERCE CENTER,@@B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,@ANDHERI (W)@MUMBAI@MUMBAI@GREATER MUMBAI (M CORP.)@MAHARASHTRA@400053@@@@@FREQUENCY@
+2015-10-14 23:03:19 INFO  Selectors:34 - Received data 2010 - 2011
+,Quarterly
+,
+2015-10-14 23:15:10 INFO  Selectors:18 - Received data 1,,99571812880P,ACL MOBILE LTD,Active(20101230),$2,,27965231600P,ACL MOBILE LTD,Active(20101230),$
+2015-10-14 23:15:11 INFO  Selectors:29 - Received data ACL MOBILE LTD@99571812880P@20101230@303, COMMERCE CENTER,@@B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,@ANDHERI (W)@MUMBAI@MUMBAI@GREATER MUMBAI (M CORP.)@MAHARASHTRA@400053@@@@@FREQUENCY@
+2015-10-14 23:15:11 INFO  Selectors:34 - Received data 2010 - 2011
+,Annual
+,
+2015-10-14 23:15:12 INFO  Selectors:29 - Received data ACL MOBILE LTD@27965231600P@20101230@303, COMMERCE CENTER,@@B-27, VEERA INDUSTRIAL ESTATE, LINK ROAD,@ANDHERI (W)@MUMBAI@MUMBAI@GREATER MUMBAI (M CORP.)@MAHARASHTRA@400053@@@@@FREQUENCY@
+2015-10-14 23:15:12 INFO  Selectors:34 - Received data 2010 - 2011
+,Quarterly
+,
+2015-10-14 23:15:39 INFO  Selectors:18 - Received data 1,,99571812880P,ACL MOBILE LTD,Active(20101230),$2,,27965231600P,ACL MOBILE LTD,Active(20101230),$
+2015-10-14 23:16:17 INFO  Selectors:18 - Received data 1,,99571812880P,ACL MOBILE LTD,Active(20101230),$2,,27965231600P,ACL MOBILE LTD,Active(20101230),$
+2015-10-14 23:54:32 INFO  Selectors:29 - Received data AKSHAY AUTOMOBILES@27540084138V@20060401@888 E@.@SHAHUPURI@5TH LANE@KARVIR@KOLHAPUR@KOLHAPUR@KOLHAPUR@416001@416001S02155@@VAT@@FREQUENCY@
+2015-10-14 23:54:32 INFO  Selectors:34 - Received data 2015 - 2016
+,Quarterly
+,2014 - 2015
+,Quarterly
+,2013 - 2014
+,Quarterly
+,2012 - 2013
+,Quarterly
+,2011 - 2012
+,Six-monthly
+,2010 - 2011
+,Six-monthly
+,2009 - 2010
+,Six-monthly
+,2008 - 2009
+,Six-monthly
+,2007 - 2008
+,Six-monthly
+,2006 - 2007
+,Six-monthly
+,
+2015-10-14 23:54:33 INFO  Selectors:29 - Received data AKSHAY AUTOMOBILES@27540084138C@20060401@888 E@.@SHAHUPURI@5TH LANE@KARVIR@KOLHAPUR@KOLHAPUR@MAHARASHTRA@416001@416001C01593@@CST@@FREQUENCY@
+2015-10-14 23:54:33 INFO  Selectors:34 - Received data 2015 - 2016
+,Quarterly
+,2014 - 2015
+,Quarterly
+,2013 - 2014
+,Quarterly
+,2012 - 2013
+,Quarterly
+,2011 - 2012
+,Six-monthly
+,2010 - 2011
+,Six-monthly
+,2009 - 2010
+,Six-monthly
+,2008 - 2009
+,Six-monthly
+,2007 - 2008
+,Six-monthly
+,2006 - 2007
+,Six-monthly
+,
+2015-10-14 23:54:33 INFO  Selectors:29 - Received data AKSHAY AUTOMOBILES@99541301270P@19950401@SANJAY UDHAORAO PAWAR@@SUBHASH CHOWK@PUSAD@*@YAVATMAL@*@MAHARASHTRA@445204@44030010000867@@@@FREQUENCY@
+2015-10-14 23:54:33 INFO  Selectors:34 - Received data 
+2015-10-14 23:56:51 INFO  Selectors:29 - Received data AKSHAY AUTOMOBILES@27540084138V@20060401@888 E@.@SHAHUPURI@5TH LANE@KARVIR@KOLHAPUR@KOLHAPUR@KOLHAPUR@416001@416001S02155@@VAT@@FREQUENCY@
+2015-10-14 23:56:51 INFO  Selectors:34 - Received data 2015 - 2016
+,Quarterly
+,2014 - 2015
+,Quarterly
+,2013 - 2014
+,Quarterly
+,2012 - 2013
+,Quarterly
+,2011 - 2012
+,Six-monthly
+,2010 - 2011
+,Six-monthly
+,2009 - 2010
+,Six-monthly
+,2008 - 2009
+,Six-monthly
+,2007 - 2008
+,Six-monthly
+,2006 - 2007
+,Six-monthly
+,
+2015-10-14 23:57:08 INFO  Selectors:29 - Received data AKSHAY AUTOMOBILES@27540084138C@20060401@888 E@.@SHAHUPURI@5TH LANE@KARVIR@KOLHAPUR@KOLHAPUR@MAHARASHTRA@416001@416001C01593@@CST@@FREQUENCY@
+2015-10-14 23:57:08 INFO  Selectors:34 - Received data 2015 - 2016
+,Quarterly
+,2014 - 2015
+,Quarterly
+,2013 - 2014
+,Quarterly
+,2012 - 2013
+,Quarterly
+,2011 - 2012
+,Six-monthly
+,2010 - 2011
+,Six-monthly
+,2009 - 2010
+,Six-monthly
+,2008 - 2009
+,Six-monthly
+,2007 - 2008
+,Six-monthly
+,2006 - 2007
+,Six-monthly
+,
+2015-10-14 23:57:09 INFO  Selectors:29 - Received data AKSHAY AUTOMOBILES@99541301270P@19950401@SANJAY UDHAORAO PAWAR@@SUBHASH CHOWK@PUSAD@*@YAVATMAL@*@MAHARASHTRA@445204@44030010000867@@@@FREQUENCY@
+2015-10-14 23:57:09 INFO  Selectors:34 - Received data 
+2015-10-14 23:58:13 INFO  Selectors:29 - Received data AKSHAY AUTOMOBILES@99541301270P@19950401@SANJAY UDHAORAO PAWAR@@SUBHASH CHOWK@PUSAD@*@YAVATMAL@*@MAHARASHTRA@445204@44030010000867@@@@FREQUENCY@
+2015-10-14 23:58:13 INFO  Selectors:34 - Received data 
+2015-10-14 23:58:18 INFO  Selectors:29 - Received data AKSHAY AUTOMOBILES@99541301270P@19950401@SANJAY UDHAORAO PAWAR@@SUBHASH CHOWK@PUSAD@*@YAVATMAL@*@MAHARASHTRA@445204@44030010000867@@@@FREQUENCY@
+2015-10-14 23:58:18 INFO  Selectors:34 - Received data 
+2015-10-15 00:00:37 INFO  Selectors:29 - Received data AKSHAY AUTOMOBILES@99541301270P@19950401@SANJAY UDHAORAO PAWAR@@SUBHASH CHOWK@PUSAD@*@YAVATMAL@*@MAHARASHTRA@445204@44030010000867@@@@FREQUENCY@
+2015-10-15 00:00:37 INFO  Selectors:34 - Received data 
+2015-10-15 00:02:23 INFO  Selectors:29 - Received data AKSHAY AUTOMOBILES@99541301270P@19950401@SANJAY UDHAORAO PAWAR@@SUBHASH CHOWK@PUSAD@*@YAVATMAL@*@MAHARASHTRA@445204@44030010000867@@@@FREQUENCY@
+2015-10-15 00:02:23 INFO  Selectors:34 - Received data 
