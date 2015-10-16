@@ -11,24 +11,19 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 import com.mycompany.pojo.SearchCriteria;
-
+/* 
+ * Purpose :Formulate get or post connections and holding cookies in subsequent calls*/
 public class SiteConnections {
 	private static Map<String, String> cookies = new HashMap<String, String>();
 
 	public Document getInitalCookies(String url) throws IOException {
 
 		cookies = new HashMap<String, String>();
-		// System.out.println("1" + cookies.toString());
 		Connection connection = Jsoup.connect(url).timeout(10 * 1000)
 				.cookies(cookies);
-		// for (Entry<String, String> cookie : cookies.entrySet()) {
-		// connection.cookie(cookie.getKey(), cookie.getValue());
-		// }
-		// System.out.println("2" + cookies.toString());
 		try {
 			Response response = connection.execute();
 			cookies.putAll(response.cookies());
-			// System.out.println("2" + cookies.toString());
 			return response.parse();
 		} catch (IOException e) {
 			System.out.println("Connection Problem!");
@@ -42,10 +37,6 @@ public class SiteConnections {
 
 		Connection connection = Jsoup.connect(url).timeout(10 * 1000)
 				.cookies(cookies);
-		// for (Entry<String, String> cookie : cookies.entrySet()) {
-		// connection.cookie(cookie.getKey(), cookie.getValue());
-		// }
-		// System.out.println("3" + cookies.toString());
 		Response response;
 		try {
 			response = connection.data("tin", searchcriteria.getTinNumber())
@@ -54,7 +45,6 @@ public class SiteConnections {
 					.data("DEALERNAME", searchcriteria.getDealerName())
 					.data("Submit", "SEARCH").userAgent("Mozilla").execute();
 			cookies.putAll(response.cookies());
-			// System.out.println("4" + cookies.toString());
 			return response.parse();
 		}
 
@@ -67,19 +57,14 @@ public class SiteConnections {
 	}
 
 	public Document getTinDetailPopUpdoc(String url) throws IOException {
-		// System.out.println(url);
+
 		Connection connection = Jsoup.connect(url).timeout(10 * 1000)
 				.cookies(cookies);
-		// for (Entry<String, String> cookie : cookies.entrySet()) {
-		// connection.cookie(cookie.getKey(), cookie.getValue());
-		// }
-		// System.out.println("5" + cookies.toString());
 		Response response = connection
 				.header("Accept-Encoding", "gzip, deflate, sdch")
 				.referrer(ScrapingConstants.SearchURL).userAgent("Mozilla")
 				.execute();
 		cookies.putAll(response.cookies());
-		// System.out.println("6" + cookies.toString());
 		return response.parse();
 	}
 }

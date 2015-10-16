@@ -8,7 +8,8 @@ import com.mycompany.pojo.Address;
 import com.mycompany.pojo.FrequncyData;
 import com.mycompany.pojo.TinDetail;
 import com.mycompany.pojo.TinDetailExplosion;
-
+/* Class datagetter  
+ * Purpose :maps String to objects*/
 public class ObjectMappers {
 
 	public List<TinDetail> populateTinDetails(String requiredTinDetailsData)

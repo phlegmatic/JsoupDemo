@@ -11,12 +11,15 @@ import com.mycompany.pojo.SearchCriteria;
 import com.mycompany.pojo.TinDetail;
 import com.mycompany.pojo.TinDetailExplosion;
 
+/* Class datagetter  
+ * Purpose :returning data filled objects to main method*/
 public class Datagetters {
 
 	static SiteConnections siteConnections = new SiteConnections();
 	static ObjectMappers objectMappers = new ObjectMappers();
 	static Selectors selectors = new Selectors();
 	final static Logger logger = Logger.getLogger(Datagetters.class);
+
 	public List<TinDetail> getTinDetails(SearchCriteria searchcriteria)
 			throws IOException {
 		Document doc = siteConnections

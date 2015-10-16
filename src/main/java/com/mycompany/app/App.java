@@ -15,6 +15,9 @@ import com.mycompany.pojo.TinDetailExplosion;
 //Task: Verify the status and validity 
 //of Sales Tax Number (TIN) and obtain allied 
 //information if valid
+
+/* This clss is starting point 
+ * Purpose :displaying menu and output to the user*/
 public class App {
 	static App core = new App();
 	static Validator validator = new Validator();

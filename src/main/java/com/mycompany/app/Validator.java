@@ -2,7 +2,8 @@ package com.mycompany.app;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+/* 
+ * Purpose :Validate inputs which have fixed format*/
 public class Validator {
 
 	// boolean validate(SearchCriteria searchcriteria) {

@@ -1,6 +1,8 @@
 package com.mycompany.pojo;
 
 public class SearchCriteria {
+
+	// initialize to avoid sending nulls in post
 	private String tinNumber = "";
 	private String panNumber = "";
 	private String dealerName = "";

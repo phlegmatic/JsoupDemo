@@ -4,7 +4,8 @@ import java.io.IOException;
 
 import org.apache.log4j.Logger;
 import org.jsoup.nodes.Document;
-
+/*  
+ * Purpose :Selects DOM element whih have required data*/
 public class Selectors {
 
 	static Utilities utility = new Utilities();

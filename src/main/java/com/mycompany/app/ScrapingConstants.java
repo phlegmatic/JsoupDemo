@@ -1,5 +1,5 @@
 package com.mycompany.app;
-
+/*constants*/
 public final class ScrapingConstants {
 
 	final static String BaseURL = "http://mahavat.gov.in/Tin_Search/Tinsearch.jsp";

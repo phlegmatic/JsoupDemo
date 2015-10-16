@@ -9,7 +9,8 @@ import org.jsoup.Connection;
 import org.jsoup.Connection.Response;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-
+/* 
+ * Purpose :Not part of solution just quick way to see response of each page*/
 public class Quicktest {
 
 	/**
