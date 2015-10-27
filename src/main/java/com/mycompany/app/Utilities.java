@@ -5,7 +5,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 /* 
-* Purpose :Not part of solution - general functions to parse table  , textboxes*/
+* Purpose : - general functions to parse table  , textboxes*/
 public class Utilities {
 
 	final static Logger logger = Logger.getLogger(Utilities.class);
